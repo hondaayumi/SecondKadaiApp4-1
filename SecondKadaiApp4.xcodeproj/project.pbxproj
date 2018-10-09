@@ -12,6 +12,7 @@
 		D8EF1BB6216999A300FE2FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EF1BB4216999A300FE2FDC /* Main.storyboard */; };
 		D8EF1BB8216999A400FE2FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EF1BB7216999A400FE2FDC /* Assets.xcassets */; };
 		D8EF1BBB216999A400FE2FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EF1BB9216999A400FE2FDC /* LaunchScreen.storyboard */; };
+		D8EF1BC321699C9B00FE2FDC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EF1BC221699C9B00FE2FDC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D8EF1BB7216999A400FE2FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8EF1BBA216999A400FE2FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8EF1BBC216999A400FE2FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EF1BC221699C9B00FE2FDC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D8EF1BAF216999A300FE2FDC /* SecondKadaiApp4 */,
-				D8EF1BAE216999A300FE2FDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +50,7 @@
 				D8EF1BAD216999A300FE2FDC /* SecondKadaiApp4.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D8EF1BAF216999A300FE2FDC /* SecondKadaiApp4 */ = {
@@ -60,6 +62,8 @@
 				D8EF1BB7216999A400FE2FDC /* Assets.xcassets */,
 				D8EF1BB9216999A400FE2FDC /* LaunchScreen.storyboard */,
 				D8EF1BBC216999A400FE2FDC /* Info.plist */,
+				D8EF1BC221699C9B00FE2FDC /* ResultViewController.swift */,
+				D8EF1BAE216999A300FE2FDC /* Products */,
 			);
 			path = SecondKadaiApp4;
 			sourceTree = "<group>";
@@ -137,6 +141,7 @@
 			files = (
 				D8EF1BB3216999A300FE2FDC /* ViewController.swift in Sources */,
 				D8EF1BB1216999A300FE2FDC /* AppDelegate.swift in Sources */,
+				D8EF1BC321699C9B00FE2FDC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
